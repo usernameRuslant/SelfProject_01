@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>СМИ портал</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/1eb673fbc5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- общий -->
+    <div class="container">
+      <!-- скрывающейся меню -->
+      <aside class="aside">
+        <!-- строка поиска -->
+        <div class="search">
+          <input class="search__input" type="text" placeholder="Поиск" />
+        </div>
+        <!-- меню -->
+        <nav class="menu">
+          <h3 class="menu__title">Меню</h3>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Про нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- инфо -->
+        <div class="info">
+          <h3 class="info__title">Информация про нас</h3>
+          <div class="info__card">
+            <div class="info__card-img"></div>
+            <p class="info__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="info__card">
+            <div class="info__card-img">
+              <img src="/img/photo4.jpg" alt="" />
+            </div>
+            <p class="info__card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+
+            <button type="button" class="info__card-btn">Далее</button>
+          </div>
+        </div>
+        <!-- помощь -->
+        <div class="help">
+          <h3 class="help__title">Помощь</h3>
+          <p class="help__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu leo
+            lacus. Nullam venenatis, dui nec luctus malesuada, mauris nibh
+            finibus neque, sed aliquam eros augue ac leo.
+          </p>
+
+          <a
+            href="mailto:test@itttproger.com"
+            class="help__link help__link--underline"
+            ><i class="help__icon fa-solid fa-envelope"></i
+            ><span class="help__contact">test@itttproger.com</span></a
+          >
+          <a href="tel:+10000000000" class="help__link"
+            ><i class="help__icon fa-solid fa-phone"></i>(000) 000 - 0000</a
+          >
+          <a href="#" class="help__link"
+            ><i class="help__icon fa-solid fa-house-chimney"></i>USA Washington
+            Seattle Northway 13002</a
+          >
+        </div>
+      </aside>
+      <!-- main  -->
+      <main class="main content-expanded content-expanded320">
+        <!-- меню-кнопка -->
+        <div class="main__menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- основная часть -->
+        <div class="main__content">
+          <!-- logo -->
+          <div class="main__logo">
+            <span><a href="#" class="main__logo-link">СМИ портал</a></span>
+          </div>
+          <!-- блок новостей -->
+          <div class="news">
+            <!-- блок новостей(блок текста) -->
+            <div class="news__block">
+              <h1 class="news__title news__title--size">
+                Работа мечты <br />
+                компания Google
+              </h1>
+              <p class="news__text-up">
+                Что из себя представляет работа в Гугл?
+              </p>
+              <p class="news__text-down">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                leo lacus. Nullam venenatis, dui nec luctus malesuada, mauris
+                nibh finibus neque, sed aliquam eros augue ac leo. Donec dictum
+                lobortis congue. Nullam vel interdum felis, vitae lobortis
+                dolor.
+              </p>
+              <button type="button" class="news__btn">Читать Далее</button>
+            </div>
+            <!-- блок новостей(блок фото/картинки) -->
+            <div class="news__img">
+              <img src="/img/photo1.jpg" alt="" />
+            </div>
+          </div>
+          <!-- блок старых новостей -->
+          <div class="oldnews">
+            <!-- Заголовок новостей -->
+            <h3 class="oldnews__title oldnews__title--size">
+              Последние опубликованные
+            </h3>
+            <!-- общий блок новостей -->
+            <div class="oldnews__blocks">
+              <!--  блок новостей -->
+              <div class="oldnews__card">
+                <div class="oldnews__card-img">
+                  <img src="/img/photo2.jpg" alt="" />
+                </div>
+                <h4 class="oldnews__card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </h4>
+                <p class="oldnews__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+                <div class="oldnews__card-btn-container">
+                  <button type="button" class="oldnews__card-btn">Далее</button>
+                </div>
+              </div>
+              <div class="oldnews__card">
+                <div class="oldnews__card-img">
+                  <img src="/img/photo1.jpg" alt="" />
+                </div>
+                <h4 class="oldnews__card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </h4>
+                <p class="oldnews__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+                <div class="oldnews__card-btn-container">
+                  <button type="button" class="oldnews__card-btn">Далее</button>
+                </div>
+              </div>
+              <div class="oldnews__card">
+                <div class="oldnews__card-img">
+                  <img src="/img/photo2.jpg" alt="" />
+                </div>
+                <h4 class="oldnews__card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </h4>
+                <p class="oldnews__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+                <div class="oldnews__card-btn-container">
+                  <button type="button" class="oldnews__card-btn">Далее</button>
+                </div>
+              </div>
+              <div class="oldnews__card">
+                <div class="oldnews__card-img">
+                  <img src="/img/photo2.jpg" alt="" />
+                </div>
+                <h4 class="oldnews__card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </h4>
+                <p class="oldnews__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+                <div class="oldnews__card-btn-container">
+                  <button type="button" class="oldnews__card-btn">Далее</button>
+                </div>
+              </div>
+              <div class="oldnews__card">
+                <div class="oldnews__card-img">
+                  <img src="/img/photo2.jpg" alt="" />
+                </div>
+                <h4 class="oldnews__card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </h4>
+                <p class="oldnews__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+                <div class="oldnews__card-btn-container">
+                  <button type="button" class="oldnews__card-btn">Далее</button>
+                </div>
+              </div>
+              <div class="oldnews__card">
+                <div class="oldnews__card-img">
+                  <img src="/img/photo2.jpg" alt="" />
+                </div>
+                <h4 class="oldnews__card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </h4>
+                <p class="oldnews__card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                </p>
+                <div class="oldnews__card-btn-container">
+                  <button type="button" class="oldnews__card-btn">Далее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- блок карусель -->
+          <div class="carousel">
+            <!--  карточка карусели -->
+            <div class="carousel__item">
+              <div>
+                <!-- фото карточки карусели -->
+                <div class="carousel__item-img">
+                  <img src="/img/photo3.jpg" alt="" />
+                </div>
+                <!-- заголовок карточки карусели -->
+                <h4 class="carousel__item-title">Swift</h4>
+                <div class="carousel__item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod
+                </div>
+              </div>
+
+              <button type="button" class="carousel__item-btn">Детали</button>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__item-img"></div>
+              <h4 class="carousel__item-title">Swift</h4>
+              <div class="carousel__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </div>
+              <button type="button" class="carousel__item-btn">Детали</button>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__item-img"></div>
+              <h4 class="carousel__item-title">Swift</h4>
+              <div class="carousel__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </div>
+              <button type="button" class="carousel__item-btn">Детали</button>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__item-img"></div>
+              <h4 class="carousel__item-title">Swift</h4>
+              <div class="carousel__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </div>
+              <button type="button" class="carousel__item-btn">Детали</button>
+            </div>
+          </div>
+          <!-- блок соц.сети -->
+          <div class="social">
+            <h3 class="social__title">Информация</h3>
+
+            <div class="social__blocks">
+              <div class="social__block">
+                <a class="social__block-link" href="#">
+                  <span><i class="fa-solid fa-users"></i></span>
+                </a>
+                <div>
+                  <h4 class="social__block-title">
+                    Lorem ipsum dolor sit amet
+                  </h4>
+                  <p class="social__block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+
+              <div class="social__block">
+                <a class="social__block-link" href="#">
+                  <span><i class="fa-brands fa-youtube"></i></span>
+                </a>
+                <div class="social__block-item">
+                  <h4 class="social__block-title">
+                    Consectetur adipiscing elit
+                  </h4>
+                  <p class="social__block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- скрытый футер -->
+      <footer class="footer hidefooter">
+        <h3 class="footer__title">Помощь</h3>
+        <p class="footer__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu leo
+          lacus. Nullam venenatis, dui nec luctus malesuada, mauris nibh finibus
+          neque, sed aliquam eros augue ac leo.
+        </p>
+
+        <a
+          href="mailto:test@itttproger.com"
+          class="footer__link footer__link--underline"
+          ><i class="footer__icon fa-solid fa-envelope"></i
+          ><span class="footer__contact">test@itttproger.com</span></a
+        >
+        <a href="tel:+10000000000" class="footer__link"
+          ><i class="footer__icon fa-solid fa-phone"></i>(000) 000 - 0000</a
+        >
+        <a href="#" class="footer__link"
+          ><i class="footer__icon fa-solid fa-house-chimney"></i>USA Washington
+          Seattle Northway 13002</a
+        >
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
